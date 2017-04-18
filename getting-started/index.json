@@ -33,7 +33,7 @@
         },
         "assets": {
           "client": [
-            {"file": "*", "target": "/home/scrapbook/tutorial"},
+            {"file": "*", "target": "/home/scrapbook/tutorial"}
           ]
         }
     },
