@@ -1,0 +1,6 @@
+docker pull wurstmeister/kafka
+docker pull wurstmeister/zookeeper
+docker pull kelseyhightower/kubectl:1.4.0
+docker pull bitnami/kubeless-controller:0.0.10
+docker pull skippbox/kubeless-python
+docker pull rosskukulinski/kubeless-nodejs
