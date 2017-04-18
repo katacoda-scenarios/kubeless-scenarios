@@ -21,6 +21,10 @@
             {
                 "title": "Step 4 - View Logs",
                 "text": "step4.md"
+            },
+            {
+                "title": "Step 5 - Create Function via Yaml",
+                "text": "step5.md"
             }
         ],
         "intro": {
@@ -32,8 +36,8 @@
             "text": "finish.md"
         },
         "assets": {
-          "client": [
-            {"file": "*", "target": "/home/scrapbook/tutorial"}
+          "host01": [
+            {"file": "*", "target": "/root"}
           ]
         }
     },

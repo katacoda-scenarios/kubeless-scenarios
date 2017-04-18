@@ -6,5 +6,3 @@
 `kubectl get functions`{{execute}}
 
 `kubeless function ls`{{execute}}
-
-`kubeless function call toy --data '{"test":"response"}'`{{execute}}
