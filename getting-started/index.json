@@ -1,30 +1,34 @@
 {
     "pathwayTitle": "Kubeless",
     "title": "Getting Started with Kubeless",
-    "description": "Learn how to start collecting system metrics with Prometheus",
+    "description": "Learn how to deploy serverless functions with Kubeless",
     "difficulty": "beginner",
     "time": "10-15 minutes",
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Configure Kubeless",
+                "title": "Step 1 - Install Kubeless",
                 "text": "step1.md"
             },
             {
-                "title": "Step 2 - Deploy Function",
+                "title": "Step 2 - Deploy a Python Function",
                 "text": "step2.md"
             },
             {
-                "title": "Step 3 - Call Function",
+                "title": "Step 3 - Call The Function",
                 "text": "step3.md"
             },
             {
-                "title": "Step 4 - View Logs",
+                "title": "Step 4 - View The Logs, Describe and Update a Function",
                 "text": "step4.md"
             },
             {
-                "title": "Step 5 - Create Function via Yaml",
+                "title": "Step 5 - Create a Node Function",
                 "text": "step5.md"
+            },
+            {
+		"title": "Step 6 - Delete Function",
+		"text": "step6.md"
             }
         ],
         "intro": {

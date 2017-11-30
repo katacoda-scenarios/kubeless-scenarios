@@ -1,3 +1,3 @@
-def foobar(context):
-   print context.json
-   return context.json
+def handler(event):
+   print event.json
+   return event.json
