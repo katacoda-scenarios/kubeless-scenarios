@@ -1,8 +1,21 @@
-`kubectl create -f function.yaml`{{execute}}
+There are additional runtimes. In addition to Python 2.7 and 3.4 you can also deploy Ruby, Node and .Net core functions.
 
-`kubectl get pods`{{execute}}
+Let's deploy a toy Node.js function.
 
-`kubeless function call function`{{execute}} <<--fails.
+`cat hello.js`{{execute}}
 
-Loading /kubeless/hello.js
-mod[funcHandler] handler undefined
+You can deploy this function like so:
+
+`kubeless function deploy hello --runtime nodejs6 \
+                              --handler hello.handler \
+                              --from-file hello.js \
+                              --trigger-http`{{execute}}
+
+You can list it
+
+`kubeless function ls`{{execute}}
+
+And call it as well
+
+`kubeless function call toy --data '{"kubeless":"rocks"}'`{{execute}}
+

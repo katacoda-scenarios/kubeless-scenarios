@@ -1,3 +1,14 @@
-`echo | kubeless install`{{execute}}
+Create a _kubeless_ namespace where you will install the controller.
+
+`kubectl create ns kubeless`{{execute}}
+
+Install the latest stable version with a `kubectl create` command
+
+`curl -sL https://github.com/kubeless/kubeless/releases/download/v0.3.0/kubeless-rbac-v0.3.0.yaml | kubectl create -f -
+`{{execute}}
+
+You can see that a few pods are being started in the _kubeless_ namespace. The controller which will watch for function objects to be created and also two Pods to enabled PubSub function.
 
 `kubectl get pods -n kubeless`{{execute}}
+
+As soon as the controller starts you can deploy a function.
