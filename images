@@ -1,6 +1,9 @@
-docker pull wurstmeister/kafka
-docker pull wurstmeister/zookeeper
-docker pull kelseyhightower/kubectl:1.4.0
-docker pull bitnami/kubeless-controller:0.0.10
-docker pull skippbox/kubeless-python
-docker pull rosskukulinski/kubeless-nodejs
+docker pull bitnami/kafka@sha256:44fbc18518e7028ce87d4bec276c54b6a2cd2c2ece0c8575418d35cad0270a9c
+docker pull bitnami/zookeeper@sha256:f66625a8a25070bee18fddf42319ec58f0c49c376b19a5eb252e6a4814f07123
+docker pull bitnami/kubeless-controller@sha256:e16457c896d074ec42ccef4954a828ca44f853ab0fb6caf0554d509e8589304b
+docker pull kubeless/python@sha256:ba948a6783b93d75037b7b1806a3925d441401ae6fba18282f712a1b1a786899
+docker pull kubeless/nodejs@sha256:948f76df704724fc307a9a28773a4749ba54128f197c0edad077bffbc43527d0
+docker pull kubeless/ruby@sha256:155a8cbd9a4e0e53efd8d3ea86f14098309a06ce1fca3b58265088460e8ad96c
+docker pull kubeless/python@sha256:631b406ab9681fe0da9c281949a885a95b7d8c9cea4a48d7dfd0fa2c0576e23e
+docker pull kubeless/nodejs@sha256:6be1ecef869283e3901a324f58eef26997f6424504111d7646b2aef50ddff1bb
+
