@@ -17,5 +17,5 @@ You can list it
 
 And call it as well
 
-`kubeless function call toy --data '{"kubeless":"rocks"}'`{{execute}}
+`kubeless function call hello --data '{"kubeless":"rocks"}'`{{execute}}
 
