@@ -10,4 +10,4 @@ Let's run a proxy:
 
 And now let's call the function directly via _curl_:
 
-`"curl --data '{\"hello\":\"world\"}' localhost:8080/api/v1/proxy/namespaces/default/services/post-python:8080/ --header \"Content-Type:application/json\""`{{execute}}
+`curl --data '{"hello":"world"}' localhost:8080/api/v1/proxy/namespaces/default/services/toy:8080/ --header "Content-Type:application/json"`{{execute}}
