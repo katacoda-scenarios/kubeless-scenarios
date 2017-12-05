@@ -8,7 +8,7 @@ As well as get the description of it
 
 To update a function use the `kubeless function update` command. For example to replace the toy function with the method from the `toy-udpate.py` script, do:
 
-`kubeless function update toy --from-file toy-update`{{execute}}
+`kubeless function update toy --from-file toy-update.py`{{execute}}
 
 Under the hood, Kubernetes will do a rolling update of the Pods making up your function. Once this is finished, you can call your function and see that the new function is now deployed.
 
