@@ -9,6 +9,10 @@ You can then list the function with the `kubeless` CLI:
 
 `kubeless function ls`{{execute}}
 
+While the function get deployed you can check the actual Python function:
+
+`cat toy.py`{{execute}}
+
 Under the hood, Kubeless automatically created a Kubernetes deployment and service. You can check that a Pod containing your function is running:
 
 `kubectl get pods`{{execute}}
