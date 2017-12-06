@@ -10,6 +10,10 @@ To update a function use the `kubeless function update` command. For example to 
 
 `kubeless function update toy --from-file toy-update.py`{{execute}}
 
+If you check the content of the new function you will see that it hard codes the JSON object being returned:
+
+`cat toy-update.py`{{execute}}
+
 Under the hood, Kubernetes will do a rolling update of the Pods making up your function. Once this is finished, you can call your function and see that the new function is now deployed.
 
 `kubeless function call toy --data '{"hello":"world"}'`{{execute}}
