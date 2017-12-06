@@ -11,4 +11,4 @@ You can see that a few pods are being started in the _kubeless_ namespace. The c
 
 `kubectl get pods -n kubeless`{{execute}}
 
-As soon as the controller starts you can deploy a function.
+As soon as the controller starts you can deploy a function. In this getting started guide you do not need to wait for the other pods to start. HTTP triggered functions are available right away.
