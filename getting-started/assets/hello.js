@@ -1,5 +1,6 @@
 module.exports = {
-  handler: function (event, context) {
-    return 'hello world!';
-  }
-}
+  handler: (event, context) => {
+    console.log(event);
+    return event.data;
+  },
+};
