@@ -8,8 +8,7 @@ You can deploy this function like so:
 
 `kubeless function deploy hello --runtime nodejs6 \
                               --handler hello.handler \
-                              --from-file hello.js \
-                              --trigger-http`{{execute}}
+                              --from-file hello.js`{{execute}}
 
 You can list it
 
