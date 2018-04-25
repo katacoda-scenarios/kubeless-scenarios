@@ -2,8 +2,7 @@ To deploy a function you use the `kubeless` CLI. You need to specify a _runtime_
 
 `kubeless function deploy toy --runtime python2.7 \
                               --handler toy.handler \
-                              --from-file toy.py \
-                              --trigger-http`{{execute}}
+                              --from-file toy.py`{{execute}}
 
 You can then list the function with the `kubeless` CLI:
 
