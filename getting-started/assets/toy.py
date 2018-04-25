@@ -1,3 +1,3 @@
-def handler(event):
-   print event.json
-   return event.json
+def handler(event, context):
+   print event
+   return event['data']
