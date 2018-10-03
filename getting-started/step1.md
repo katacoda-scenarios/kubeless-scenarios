@@ -4,7 +4,7 @@ Create a _kubeless_ namespace where you will install the controller.
 
 Install the latest stable version with a `kubectl create` command
 
-`kubectl create -f https://github.com/kubeless/kubeless/releases/download/v0.6.0/kubeless-v0.6.0.yaml`{{execute}}
+`kubectl create -f https://github.com/kubeless/kubeless/releases/download/v1.0.0-alpha.8/kubeless-v1.0.0-alpha.8.yaml`{{execute}}
 
 You can see that a few pods are being started in the _kubeless_ namespace. The controller which will watch for function objects to be created and also two Pods to enabled PubSub function.
 
